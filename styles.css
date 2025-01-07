@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #212529;
+    background-color: #69ccbd;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+input, p {
+    font-size: 2rem;
+}
+
+.moves {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+button {
+    font-size: 4rem;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#rock {
+    background-color:#d63030;
+}
+#rock:hover {
+    background-color:#a00f0f;
+}
+
+#paper {
+    background-color: rgb(57, 112, 231);
+}
+#paper:hover {
+    background-color: rgb(20, 75, 196);
+}
+
+#scissors {
+    background-color: rgb(47, 161, 47);
+}
+#scissors:hover {
+
+    background-color: rgb(25, 131, 25);
+}
